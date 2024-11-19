@@ -1,1 +1,26 @@
+:root{
+    --darkGray:#313236;
+    --lightGray: #575757;
+    --white: #BABABA;
+    --lightGreen: #72B01D;
+    --darkGreen: #326C15;
+}
 
+body{
+    background-color: var(--lightGray);
+}
+
+h2{
+    background-color: var(--darkGray);
+    color: var(--lightGreen);
+    padding: 5px;
+    padding-left: 30px;
+
+    font-size: 2em;
+
+}
+
+section{
+    background-color: var(--white);
+    margin: 50px;
+}
