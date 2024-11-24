@@ -6,6 +6,10 @@
     --darkGreen: #326C15;
 }
 
+p{
+    color: var(--darkGreen);
+}
+
 body{
     background-color: var(--lightGray);
     margin: 0;
@@ -83,7 +87,44 @@ h2{
     font-size: 2em;
 }
 
+h3{
+    color: var(--darkGreen);
+}
+
 section{
     background-color: var(--white);
     margin: 50px;
+}
+
+.blog-section{
+    display: flex;
+}
+
+.blog-img{
+    border: solid 4px var(--darkGray);
+}
+
+.blog-img img{
+    max-width: 200px;
+    height: auto;
+}
+
+.blog-content{
+    flex: 1;
+    border-bottom: solid 4px var(--darkGray);
+    border-right: solid 4px var(--darkGray);
+}
+
+time{
+    color: var(--darkGreen);
+}
+
+.blog-content .blog-header{
+    border-top: solid 4px var(--darkGray);  
+    border-bottom: solid 4px var(--darkGray);
+    margin: 0   ;
+}
+
+.blog-content p{
+    height: auto;
 }
