@@ -119,10 +119,28 @@ time{
     color: var(--darkGreen);
 }
 
+.blog-header{
+    padding-bottom: 10px;
+}
+
 .blog-content .blog-header{
     border-top: solid 4px var(--darkGray);  
     border-bottom: solid 4px var(--darkGray);
     margin: 0   ;
+}
+
+.blog-header h3{
+    font-size: 2em;
+    margin: 20px;
+}
+
+
+.blog-content p, h3, time{
+    margin-left: 20px;
+}
+
+time{
+    margin-bottom: 10px;
 }
 
 .blog-content p{
