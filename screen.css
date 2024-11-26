@@ -168,3 +168,22 @@ time{
     height: auto;
     margin: auto;
 }
+
+.project-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-images img{
+    max-width: 400px;
+    height: auto;
+}
+
+.homepage-blog{
+    display: flex;
+}
+
+.homepage-blog img{
+    max-width: 100px;
+    height: auto;
+}
