@@ -1,4 +1,5 @@
 :root{
+    --darkerGray:#1d1d1f;
     --darkGray:#313236;
     --lightGray: #575757;
     --white: #BABABA;
@@ -45,6 +46,12 @@ nav a{
     text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+    nav a{
+        font-size: 1.5em;
+    }
+}
+
 .nav-image{
     padding: 10px;
     height: 100px;
@@ -85,6 +92,7 @@ h2{
     padding: 5px;
     padding-left: 30px;
     font-size: 2em;
+    border-bottom: solid 3px var(--darkerGray);
 }
 
 h3{
@@ -94,6 +102,7 @@ h3{
 section{
     background-color: var(--white);
     margin: 50px;
+    box-shadow: 5px 10px 5px var(--darkerGray);
 }
 
 .blog-section{
@@ -160,6 +169,7 @@ time{
     margin: 10px;
     margin-top: 0px;
     display: block;
+    border-radius: 25px;
 }
 
 .play-button{
@@ -176,14 +186,66 @@ time{
 
 .project-images img{
     max-width: 400px;
+    width: 100%;
     height: auto;
 }
 
 .homepage-blog{
     display: flex;
+    border: solid 4px var(--darkGray);
 }
 
 .homepage-blog img{
     max-width: 100px;
+    width: 100%;
     height: auto;
+}
+
+.about-content{
+    display: flex;
+}
+
+.about-content img{
+    margin: 20px;
+    margin-top: 0px;
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.projects{
+    padding-bottom: 20px;
+}
+
+.projects article{
+    background-color: var(--darkGray);
+    font-size: 1.5em;
+    color: var(--lightGreen);
+}
+
+.projects h3{
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: var(--lightGreen);
+}
+
+.blog-posts img{
+    border-right: solid 4px var(--darkGray);
+}
+
+.blog-posts h2{
+    margin-bottom: 0;
+}
+
+.blog-posts h3{
+    font-size: 3em;
+    margin: auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.homepage-blog-content{
+    padding-bottom: 10px;
 }
