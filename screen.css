@@ -266,3 +266,8 @@ time{
     display: inline-block;
             margin-left: 40px;
 }
+
+address{
+    text-align: right;
+    padding: 20px;
+}
