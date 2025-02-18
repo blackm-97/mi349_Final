@@ -1,1 +1,1 @@
-ScrollReveal().reveal('section', {interval: 100});
+ScrollReveal().reveal('section', {interval: 150});
